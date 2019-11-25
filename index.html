@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Img Gallery</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- bootstrapcdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-secondary">
+
+<!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-image"></i> Img Gallery</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- jumbotron -->
+  <div class="container">
+    <div class="jumbotron jumbo-top bg-dark text-warning">
+      <h1 class="jumbo-heading display-1"><i class="fas fa-camera-retro"></i> Photographs</h1>
+      <p class="lead">Here are a bunch of pretty pictures found on the internet, none of them are taken by me.</p>
+      <hr class="my-4">
+    </div>
+  </div>
+
+  <!-- the gallery -->
+    <div class="container" id="gallery">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1537813075314-eab032200609?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1520901157462-0ea3fb2f9024?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1446776858070-70c3d5ed6758?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1431373878197-8da4e53be0c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1500754088824-ce0582cfe45f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1525467254000-b0f14548f9ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1526638684360-95cdcee762ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1960&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1511358146320-eb018ab3e22e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1532943126512-e2bcf68a488c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 img-resize">
+          <img class="img-thumbnail" data-toggle="modal" data-target="#exampleModalCenter" src="https://images.unsplash.com/photo-1491250974528-9443b2902f18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+        </div>
+      </div>
+    </div>
+
+<!-- modal -->
+
+    <div class="modal fade" id="exampleModalCenter" >
+      <div class="modal-dialog">
+          <div class="modal-body">
+            <img src="" id="image-preview">
+          </div>
+      </div>
+  </div>
+
+  <!-- footer   -->
+      <div class="footer jumbotron-fluid bg-dark text-warning">
+        <div class="container">
+          <h5>Designed by Blackheart</h5>
+        </div>
+      </div>
+  <!-- bootstrapcdn -->
+  <script type="text/javascript" src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/d369e81847.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
